@@ -30,7 +30,7 @@ header {
 nav {
     grid-template-columns: repeat(5 , 1fr) ;
     grid-template-rows: 10vh ;
-    background-color: lightseagreen;
+    background-color: lightskyblue;
     text-align: center ;
 }
 
@@ -42,19 +42,19 @@ nav {
 
 aside {
     width: 25% ;
-    height: 70vh ;
+    height: 75vh ;
     float: left ;
     grid-template-columns: 1fr ;
     grid-auto-rows: 1fr ;
     align-items: center ;
     justify-items: center ;
-    background-color: mediumpurple ;
+    background-color: lightskyblue ;
     text-align: center ;
 }
 
 section {
     width: 75% ;
-    height: 70vh ;
+    height: 75vh ;
     float: left ;
 }
 
@@ -63,7 +63,7 @@ footer {
     grid-auto-rows: 10vh ;
     align-items: center ;
     justify-items: center ;
-    background-color: lightskyblue;
+    background-color: lightseagreen;
     color: lightgoldenrodyellow ;
     float: left ;
     width: 100% ;
