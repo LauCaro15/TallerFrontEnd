@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/stylepipati.css">
+    <title>Piedra, Papel o Tijera</title>
+</head>
+<body>
+    <div class="cotainerppt">
+        <div class="titulo">
+            <h1>¡Juega Piedra, Papel o Tijera!</h1>
+            <h3>Elige una opción:</h3>
+        </div>
+        <div class="option">
+            <div>
+                <button name="piedra" onclick="jugar()"><img src="https://img.freepik.com/vector-premium/roca-dibujos-animados-piedra-granito-macizo-paisaje-juego-aislado-sobre-fondo-blanco_80590-12595.jpg" alt=""></button>
+            </div>
+            <div>
+                <button name="papel" onclick="jugar()"><img src="https://st4.depositphotos.com/1742172/24829/v/600/depositphotos_248297604-stock-illustration-cute-cartoon-of-a-sheet.jpg" alt=""></button>
+            </div>
+            <div>
+                <button name="tijera" onclick="jugar()"><img src="https://img.freepik.com/vector-premium/tijeras-icono-dibujos-animados-simple-vector-dibujos-animados-fondo-blanco_126267-8967.jpg" alt=""></button>
+            </div>
+        </div>
+        <!-- <input type="text" name="casilla0" id="0" class="datos" onblur="calcular()"> -->
+        <div class="battle">
+            <div class="jugador">
+                <h2>Jugador</h2>
+                <div id="jug"></div>
+            </div>
+            <div class="vs">
+                <h3>VS</h3>
+            </div>
+            <div class="maquina">
+                <h2>Máquina</h2>
+                <div id="compu"></div>
+            </div>
+        </div>
+        <div class="result">
+            <h1>Ganó</h1>
+        </div>
+    </div>
+</body>
+</html>

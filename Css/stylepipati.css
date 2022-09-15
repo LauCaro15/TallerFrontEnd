@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.jugador{
+    text-align: center;
+}
+
+.computador{
+    text-align: center;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.battle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vs{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.result{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
