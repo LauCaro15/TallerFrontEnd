@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-.computador{
+.maquina{
     text-align: center;
 }
 
@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 img{
@@ -31,6 +32,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:aquamarine;
 }
 
 .vs{
@@ -39,7 +41,6 @@ img{
 }
 
 .result{
-    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
