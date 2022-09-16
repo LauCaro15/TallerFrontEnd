@@ -18,6 +18,11 @@
 
 #intentos {
     grid-template-rows: 10vh;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(2 , 1fr) 2fr;
 
+}
+
+#cuadritos {
+    grid-template-rows: 10vh;
+    grid-auto-columns: minmax(5vw , 1fr);
 }
