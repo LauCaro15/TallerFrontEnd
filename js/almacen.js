@@ -156,10 +156,15 @@ function comprar(a){
 
 function mostrar(){
     document.getElementById("mostrar").innerHTML = "";
+    var precioTotal = 0;
 
     for (let i = 0; i < compra.length; i++) {
         document.getElementById("mostrar").innerHTML += 'Tipo material: '+compra[i].tipoMaterial+'<br>'+'Velocidad: '+compra[i].velocidad+'<br>'+ 'Ancho: '+compra[i].ancho+'<br>'+ 'Alto: '+compra[i].alto+'<br>'+ 'Color: '+compra[i].color+'<br>'+ 'Precio: '+compra[i].precio+'<br><br>'
+
+        precioTotal += parseInt(compra[i].precio);
     }
+
+    document.getElementById("precio").innerHTML = "<p>Precio: "+precioTotal+"</p>";
 }
 
 // patinetas.push({
