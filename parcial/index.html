@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/ahorcado.js"></script>
+    <link rel="stylesheet" href="./style.css"></link>
+
+    <meta name="author" content="Laura Carolina Candamil Cortés">
+    <meta name="author" content="Jean Carlos Ballesteros Zamora">
+    <meta name="author" content="Natalia Pineda Serna">
+
+    <meta name="keywords" content="HTML , CSS , JavaScript ">
+    <meta name="description" content="Web Page">
     <title>Parcial 1</title>
+
 </head>
 <body>
     <h1>Ahorcado</h1>
     <div>
 		<input class="palabra" type="text" id="palabra" name="palabra">
-		<button class="jugar" name="jugar" id="2" onclick="calcular()">Agregar Palabra</button>
+		<button class="jugar" name="jugar" id="jugar" onclick="calcular()">Jugar</button>
 	</div>
-    <div id="intentos">
-        <div class="col-s4"><p>Intentos</p></div>
-        <div class="col-s4" id="numIntentos"></div>
+    <div class="grid" id="intentos">
+        <div><p>Intentos</p></div>
+        <div id="numIntentos" name="numIntentos"></div>
+        <div><p>Recuerde que si llega a 5 intento el juego vuelve a empezar</p></div>
 	</div>
-    <div id="cuadritos">
+    <div class="grid" id="cuadritos">
 
 	</div>
 
