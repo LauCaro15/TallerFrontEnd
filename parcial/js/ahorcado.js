@@ -1,6 +1,6 @@
 function calcular(){
     var palabra = document.getElementById("palabra").value;
-    alert(palabra.length);
+    // alert(palabra.length);
 
     var arrayLetras = [];
 
@@ -41,7 +41,7 @@ function verificar(){
     //     }
     // }
     if(count<6 && conta==0){
-        alert(conta);
+        // alert(conta);
         document.getElementById("resultado").innerHTML = "<p>¡Ganaste!</p>"
     }
 
