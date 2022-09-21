@@ -10,17 +10,18 @@
 <body>
     <h1>Ahorcado</h1>
     <div>
-		<input class="palabra" type="text" id="1" name="palabra">
-		<button class="jugar" name="jugar" id="2" onclick="mostrar()">Jugar</button>
+		<input class="palabra" type="text" id="palabra" name="palabra">
+		<button class="jugar" name="jugar" id="2" onclick="calcular()">Agregar Palabra</button>
 	</div>
     <div id="intentos">
         <div class="col-s4"><p>Intentos</p></div>
-        <div class="col-s4"><p>Intentos</p></div>
-        <div class="col-s4"><p id="3" name="numIntentos">3</p></div>
+        <div class="col-s4" id="numIntentos"></div>
 	</div>
     <div id="cuadritos">
 
 	</div>
+
+    <button class="jugar" name="verificar" id="verificar" onclick="verificar()">Verificar</button>
     <div id="resultado">
 
 	</div>
