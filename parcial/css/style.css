@@ -1,0 +1,91 @@
+* {
+    margin: 2vh auto;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    justify-content: center;
+    text-align: center ;
+}
+
+.intentosflex{
+    display: flex;
+}
+
+.let{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.sectiongrid {
+    display: grid;
+    justify-content: center;
+    align-items: center ;
+    justify-items: center ;
+    text-align: center ;
+    width: 50%;
+    height: 100%;
+    padding: 0px 0px;
+}
+
+.letra{
+    display:flex;
+    width:30px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.sectionflex{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    justify-items: center ;
+    text-align: center ;
+    width: 50%;
+    height: 60%;
+}
+
+.cuadros{
+    height: 20%;
+}
+
+#intentos {
+    grid-template-rows: 10vh;
+    grid-template-columns: repeat(2 , 1fr) 2fr;
+
+}
+
+/* #cuadritos {
+    grid-template-rows: 10vh;
+    grid-auto-columns: minmax(5vw , 1fr);
+} */
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    border: 1px solid;
+}
+
+header{
+
+    width: 100%;
+    height: 20%;
+    background-color: aquamarine;
+}
+
+section{
+    width: 100%;
+    height: 75%;
+}
+
+footer{
+    width: 100%;
+    height: 5%;
+    background-color: aquamarine;
+}
+
+.canvas{
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+}

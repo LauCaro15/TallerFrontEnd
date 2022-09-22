@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/ahorcado.js"></script>
-    <link rel="stylesheet" href="./style.css"></link>
+    <link rel="stylesheet" href="./css/style.css"></link>
 
     <meta name="author" content="Laura Carolina Candamil Cortés">
     <meta name="author" content="Jean Carlos Ballesteros Zamora">
@@ -18,23 +18,43 @@
 
 </head>
 <body>
-    <h1>Ahorcado</h1>
-    <div>
-		<input class="palabra" type="text" id="palabra" name="palabra">
-		<button class="jugar" name="jugar" id="jugar" onclick="calcular()">Jugar</button>
-	</div>
-    <div class="grid" id="intentos">
-        <div><p>Intentos</p></div>
-        <div id="numIntentos" name="numIntentos"></div>
-        <div><p>Recuerde que si llega a 5 intento el juego vuelve a empezar</p></div>
-	</div>
-    <div class="grid" id="cuadritos">
+    <div class="container">
+        <header>
+            <div class="titulo">
+                <h1>Ahorcado</h1>
+            </div>
+        </header>
+        <section>
+            <div class="sectionflex">
+                <div class="sectiongrid">
+                    <div class="">
+                        <input class="palabra" type="text" id="palabra" name="palabra">
+                        <button class="jugar" name="jugar" id="jugar" onclick="calcular()">Jugar</button>
+                    </div>
+                    <div class="intentosflex" id="intentos">
+                        <div style="padding: 2px 2px;"><p>Intentos:</p></div>
+                        <div style="padding: 2px 2px;" id="numIntentos" name="numIntentos"></div>
+                    </div>
+                    <div id="resultado"></div>
+                </div>
+                <div class="canvas">
 
-	</div>
+                </div>
+            </div>
+            <div class="cuadros">
+                <table>
+                    <tr>
+                        <div class="let" id="cuadritos">
 
-    <button class="jugar" name="verificar" id="verificar" onclick="verificar()">Verificar</button>
-    <div id="resultado">
+                        </div>
+                    </tr>
+                </table>
+                <button class="jugar" name="verificar" id="verificar" onclick="verificar()">Verificar</button>
+            </div>
+        </section>
+        <footer>
 
-	</div>
+        </footer>
+    </div>
 </body>
 </html>

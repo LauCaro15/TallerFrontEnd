@@ -6,12 +6,14 @@ function calcular(){
 
     var contador = 0;
 
+    document.getElementById("cuadritos").innerHTML = "";
+
     for (let i = 0; i < palabra.length; i++) {
         var letra = palabra.charAt(i);
         arrayLetras.push(letra);
         // alert(letra);
 
-        document.getElementById("cuadritos").innerHTML += '<input type="text" id="'+letra+'" name="'+letra+'">';
+        document.getElementById("cuadritos").innerHTML += '<td colspan="1"><input class="letra" type="text" id="'+letra+'" name="'+letra+'"><td/>';
 
     }
     // console.log(arrayLetras);
@@ -29,7 +31,9 @@ function verificar(){
         }else{
             document.getElementById(letra).value = "";
             conta++
-            count++;
+            if(count <= 4){
+                count++;
+            }
             document.getElementById("numIntentos").innerHTML = "<p>"+count+"</p>";
         }
 
@@ -49,4 +53,8 @@ function verificar(){
         document.getElementById("resultado").innerHTML = "<p>¡Perdiste!</p>"
     }
 }
+
+
+
+
 
